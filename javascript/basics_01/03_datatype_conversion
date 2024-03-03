@@ -1,0 +1,63 @@
+let score = undefined
+//console.log(typeof score);
+//console.log(typeof(score));
+
+let valueInNumber = Number(score);
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber);
+
+//"33" => 33
+//"33abc" => NaN
+// undefined => NaN
+// null => 0
+
+
+let isLoggedIn = "hello"
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+//console.log(booleanIsLoggedIn);
+// true => 1;false => 0
+// "" => false
+// "something" => true
+
+let num = 33
+
+let stringNum = String(num)
+//console.log(stringNum);
+//console.log(typeof stringNum);//string
+//console.log(typeof num);//number
+
+// *************** Operations ****************
+
+let value = 3
+let negValue = -value
+//console.log(negValue);//-3
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2**3);
+//console.log(2/3);
+//console.log(2%3);
+
+let str1 = "hello"
+let str2 = " kaushik"
+
+let str3 = str1 +str2
+// console.log(str3);
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2  + 2);
+// console.log(1+2+"2");
+//console.log(+true);//1
+//console.log(+"");//0
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2+2
+
+//Prefix and Postfix
+let gameCounter = 100
+
+gameCounter++;
+//console.log(gameCounter);
+++gameCounter;
+//console.log(gameCounter);
